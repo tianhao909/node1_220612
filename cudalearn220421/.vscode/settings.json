@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "nm.h": "c",
+        "limits.h": "c",
+        "bfd.h": "c",
+        "exceptions.h": "c",
+        "ui-out.h": "c"
+    }
+}

@@ -1,0 +1,8 @@
+hello-gpu : hello-gpu.cu 
+    nvcc hello-gpu.cu -o hello-gpu -run
+    nvcc martix.cu -o martix -run
+    nsys profile --stats=true .\matrix.exe
+    nsys profile --stats=true ./a.out
+
+clean:
+    rm hello-gpu

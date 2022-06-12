@@ -1,0 +1,1 @@
+nvcc -o rgb2grey rgb2grey.cu -lopencv_highgui -lopencv_core -lopencv_imgcodecs -lopencv_imgproc
